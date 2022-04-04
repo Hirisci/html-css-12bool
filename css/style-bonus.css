@@ -6,8 +6,8 @@
   :root{
     /*- COLORI -*/
     --colore-testo: #fff;
-    --colore-testo-titolo: #000;
-    --colore-bg-primario: #fff;
+    --colore-testo-titolo: rgb(210, 215, 169);
+    --colore-bg-primario: #000;
 
     /*- DIMENSIONI GUTTER E SPAZIATURE-*/
     --gutter: 1em;
@@ -27,4 +27,57 @@
 /*╔═══════════════╗
     TAG SEMANTICI
   ╚═══════════════╝*/
+body{
+    background-color: var(--colore-bg-primario);
+    color: var(--colore-testo);
+}
 
+header{
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 50px;
+}
+
+header div.col-1{
+    text-align: right;
+}
+
+header div i{
+    padding: 5px;;
+}
+
+
+main{
+    height: calc(100vh - 100px);
+    background-color: aqua;
+}
+
+
+
+
+
+/*---- footer ----*/
+
+footer{
+    border-top: 2px solid var(--colore-testo-titolo);
+    position: relative;
+    bottom: 0;
+    left: 0;
+    height: 50px;
+}
+footer img{
+    height: 30px;
+}
+footer li{
+    list-style: none;
+}
+footer li a{
+    display: block;
+    padding: 0 15px;
+    text-align: center;
+}
+
+footer li a i{
+    font-size: 20px;
+}
