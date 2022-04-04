@@ -1,0 +1,30 @@
+
+/*╔═══════════════╗
+      VARIABILI
+  ╚═══════════════╝*/
+
+  :root{
+    /*- COLORI -*/
+    --colore-testo: #fff;
+    --colore-testo-titolo: #000;
+    --colore-bg-primario: #fff;
+
+    /*- DIMENSIONI GUTTER E SPAZIATURE-*/
+    --gutter: 1em;
+    --gutter-smal: 0.5em;
+    --gutter-big: 2em;
+    --spaziatura-section: 200px; 
+
+
+}
+
+/*╔═══════════════╗
+       COMMON
+  ╚═══════════════╝*/
+
+
+
+/*╔═══════════════╗
+    TAG SEMANTICI
+  ╚═══════════════╝*/
+
