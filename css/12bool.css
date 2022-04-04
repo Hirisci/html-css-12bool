@@ -37,11 +37,23 @@ li{
     width: 1200px;
     margin: 0 auto;
 }
+
 .row{
     display: flex;
-    flex-flow: raw wrap;
+    flex-flow: row wrap;
 }
 
+.gutter-small{
+    padding: 5px;
+}
+
+.gutter-norm{
+    padding: 10px;
+}
+
+.gutter-big{
+    padding: 15px;
+}
 /*╔═══════════════╗
       COLOMS
   ╚═══════════════╝*/
