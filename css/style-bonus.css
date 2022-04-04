@@ -7,7 +7,10 @@
     /*- COLORI -*/
     --colore-testo: #fff;
     --colore-testo-titolo: rgb(210, 215, 169);
-    --colore-bg-primario: #000;
+    --colore-bg-primario: #e0e5eb;
+    --colore-bg-primo-div: #2cccc4;
+    --colore-bg-secondo-div: #292d33;
+    --colore-bg-terzo-div: #fd591d;
 
     /*- DIMENSIONI GUTTER E SPAZIATURE-*/
     --gutter: 1em;
@@ -22,6 +25,17 @@
        COMMON
   ╚═══════════════╝*/
 
+/*--- TYpo ---*/
+
+h2{
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    font-size: 2rem;
+}
+
+p{
+    font-size: 1.2rem;
+}
 
 
 /*╔═══════════════╗
@@ -30,7 +44,7 @@
 
 /*--- NAV ---*/
 header{
-    justify-content: space-between;
+    justify-content: space-around;
     border-bottom: 1px solid lightgray;
 }
 
@@ -78,7 +92,7 @@ main .sfondo{
 
 main .scuro{
     height: 60vh;
-    background-color: rgb(193, 213, 232);
+    background-color: var(--colore-bg-primario);
 }
 
 main .chiaro{
@@ -93,27 +107,38 @@ main.container{
 
 main .container .row .col-4{
     height: 100vh;
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: stretch;
-    
 }
 
 main .container .row .col-4:nth-child(2n +1){
+    justify-content: flex-end;
 }
 
-main .container .row .col-4.gutter{
+main .container .row .col-4.row-vert{
+    padding: 0px 30px 30px 30px;
 }
 
 main .container .row .col-4 .text{
-    border: 1px solid lightgrey;
-}
-main .container .row .col-4 img{
-    height: 300px;
-    object-fit: cover;
-    border: 1px solid lightgrey;
+    color:#fff;
+    padding: 30px;
 }
 
+main .container .row .col-4 img{
+    width: 100%;
+    object-fit:cover;
+    overflow: hidden;
+}
+
+.sfondo-blue{
+    background-color: var(--colore-bg-primo-div);
+}
+
+.sfondo-black{
+    background-color: var(--colore-bg-secondo-div);
+}
+
+.sfondo-orange{
+    background-color: var(--colore-bg-terzo-div);
+}
 
 
 
