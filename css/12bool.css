@@ -2,7 +2,7 @@
         RESET
   ╚═══════════════╝*/
 
-  *{
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -37,23 +37,11 @@ li{
     width: 1200px;
     margin: 0 auto;
 }
-
 .row{
     display: flex;
     flex-flow: row wrap;
 }
 
-.gutter-small{
-    padding: 5px;
-}
-
-.gutter-norm{
-    padding: 10px;
-}
-
-.gutter-big{
-    padding: 15px;
-}
 /*╔═══════════════╗
       COLOMS
   ╚═══════════════╝*/
@@ -144,6 +132,20 @@ li{
 }
 .off-set-11{
     margin-left: calc(100% / 12 * 11) ;
+}
+
+/*╔═══════════════╗
+    TOOL & MISC
+  ╚═══════════════╝*/
+
+.gutter-small{
+    padding: 5px;
+}
+.gutter-norm{
+    padding: 10px;
+}
+.gutter-big{
+    padding: 15px;
 }
 
 
