@@ -42,8 +42,12 @@ li{
     flex-flow: row wrap;
 }
 
+.row-vert{
+    
+}
+
 /*╔═══════════════╗
-      COLOMS
+      COLOMS x ROW
   ╚═══════════════╝*/
 
 .col{
@@ -132,6 +136,48 @@ li{
 }
 .off-set-11{
     margin-left: calc(100% / 12 * 11) ;
+}
+
+
+/*╔═══════════════╗
+      COLOMS x COLUMNS
+  ╚═══════════════╝*/
+
+.col-vert{
+    flex-grow: 1;
+}
+.col-vert-1{
+    flex: 0 0 calc(100% / 12);
+}
+.col-vert-2{
+    flex: 0 0 calc(100% / 12 * 2);
+}
+.col-vert-3{
+    flex: 0 0 calc(100% / 12 * 3);
+}
+.col-vert-4{
+    flex: 0 0 calc(100% / 12 * 4);
+}
+.col-vert-5{
+    flex: 0 0 calc(100% / 12 * 5);
+}
+.col-vert-6{
+    flex: 0 0 calc(100% / 12 * 6);
+}
+.col-vert-7{
+    flex: 0 0 calc(100% / 12 * 7);
+}
+.col-vert-8{
+    flex: 0 0 calc(100% / 12 * 8);
+}
+.col-vert-9{
+    flex: 0 0 calc(100% / 12 * 9);
+}
+.col-vert-10{
+    flex: 0 0 calc(100% / 12 * 10);
+}
+.col-vert-11{
+    flex: 0 0 calc(100% / 12 * 11);
 }
 
 /*╔═══════════════╗
