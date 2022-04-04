@@ -63,20 +63,55 @@ header .row div.input-container i{
     color: lightgray;
 }
 
+
+/*--- MAIN ---*/
+main{
+    position: relative;
+}
+
+main .sfondo{
+    z-index: -1;
+    position: absolute;
+    height: 100vh;
+    width: 100%;    
+}
+
 main .scuro{
     height: 60vh;
-    background-color: rgb(187, 201, 220);
+    background-color: rgb(193, 213, 232);
 }
 
 main .chiaro{
     height: 40vh;
 }
+/*---- CONTENTUNTO MAIN ---*/
 
+main.container{
+    position: absolute;
+    z-index: 10;
+}
 
+main .container .row .col-4{
+    height: 100vh;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: stretch;
+}
 
+main .container .row .col-4:nth-child(2n +1){
+}
 
+main .container .row .col-4.gutter{
+}
 
-
+main .container .row .col-4 .text{
+    border: 1px solid lightgrey;
+}
+main .container .row .col-4 img{
+    height: 300px;
+    object-fit: cover;
+    border: 1px solid lightgrey;
+}
 
 
 
