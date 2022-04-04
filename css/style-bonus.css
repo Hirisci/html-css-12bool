@@ -122,6 +122,14 @@ main .container .row .col-4 .text{
     padding: 30px;
 }
 
+main .container .row .col-4 .row-vert{
+    align-items: center;
+    justify-content: space-around;
+
+    font-size: 80px;
+}
+
+
 main .container .row .col-4 img{
     width: 100%;
     object-fit:cover;
