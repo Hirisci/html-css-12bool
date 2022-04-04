@@ -27,31 +27,47 @@
 /*╔═══════════════╗
     TAG SEMANTICI
   ╚═══════════════╝*/
-body{
-    background-color: var(--colore-bg-primario);
-    color: var(--colore-testo);
-}
 
+/*--- NAV ---*/
 header{
-    position: relative;
-    top: 0;
-    left: 0;
-    height: 50px;
+    justify-content: space-between;
+    border-bottom: 1px solid lightgray;
 }
 
-header div.col-1{
-    text-align: right;
+header div .main-nav{
+    display: flex;
+    list-style: none;
 }
 
-header div i{
-    padding: 5px;;
+header div .main-nav a{
+    line-height: 30px;
+    padding: 10px;
+}
+
+header input{
+    border: none;
+}
+
+header .row div.input-container button{
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+header .row div.input-container{
+    padding: 5px 10px;
+    border: 1px solid lightgray;
+}
+
+header .row div.input-container i{
+    color: lightgray;
 }
 
 
-main{
-    height: calc(100vh - 100px);
-    background-color: aqua;
-}
+
+
+
+
 
 
 
@@ -59,25 +75,3 @@ main{
 
 /*---- footer ----*/
 
-footer{
-    border-top: 2px solid var(--colore-testo-titolo);
-    position: relative;
-    bottom: 0;
-    left: 0;
-    height: 50px;
-}
-footer img{
-    height: 30px;
-}
-footer li{
-    list-style: none;
-}
-footer li a{
-    display: block;
-    padding: 0 15px;
-    text-align: center;
-}
-
-footer li a i{
-    font-size: 20px;
-}
