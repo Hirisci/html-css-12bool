@@ -24,16 +24,22 @@
 
   [class*="col"]{
       border: 1px solid #fff;
-      background-color: blue;
+      background-color: rgb(61, 61, 155);
       color: #fff;
       text-align: center;
       min-height: 40px;
       line-height: 40px;
+      padding: 7px;
   }
+
+  [class*="col"] [class*="col"]{
+      background-color: blue;
+  }
+
+
 
 
 /*╔═══════════════╗
     TAG SEMANTICI
   ╚═══════════════╝*/
-
 
