@@ -96,6 +96,7 @@ main .container .row .col-4{
     display: flex;
     flex-flow: column wrap;
     justify-content: stretch;
+    
 }
 
 main .container .row .col-4:nth-child(2n +1){
