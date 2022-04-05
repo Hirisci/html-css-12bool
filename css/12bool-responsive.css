@@ -34,7 +34,7 @@ li{
   ╚═══════════════╝*/
 
 .container{
-    width: 1070px;
+    max-width: 1070px;
     margin: 0 auto;
 }
 .row{
@@ -58,6 +58,12 @@ li{
 .col-xs{
     flex-grow: 1;
 }
+
+.col-xs-0{
+    flex: 0 0 0;
+    max-width: 0;
+}
+
 .col-xs-1{
     flex: 0 0 calc(100% / 12);
     max-width: calc(100% / 12);
@@ -207,9 +213,12 @@ li{
     align-items: center;
 }
 
+.disp-none{
+    display: none;
+}
 
  /* Small devices: (sm >=576px) */
-@media (min-width: 576px) {
+@media screen and (min-width: 576px) {
     /*╔═══════════════╗
         COLOMS x ROW
       ╚═══════════════╝*/
@@ -309,7 +318,7 @@ li{
 }
 
  /* Medium devices (md >=768px) */
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) {
     /*╔═══════════════╗
         COLOMS x ROW
       ╚═══════════════╝*/
@@ -408,7 +417,7 @@ li{
 
 } 
 /* Large devices (lg>= 992px) */
-@media (min-width: 992px) {
+@media screen and (min-width: 992px) {
     /*╔═══════════════╗
         COLOMS x ROW
       ╚═══════════════╝*/
@@ -508,7 +517,7 @@ li{
 } 
 
 /* X-Large devices (xl>= 1200px) */
-@media (min-width: 1200px) {
+@media screen and (min-width: 1200px) {
     /*╔═══════════════╗
         COLOMS x ROW
       ╚═══════════════╝*/
@@ -608,7 +617,7 @@ li{
 }
 
 /* XX-Large devices (xxl>= 1400px) */
-@media (min-width: 1400px) {
+@media screen and (min-width: 1400px) {
     /*╔═══════════════╗
         COLOMS x ROW
       ╚═══════════════╝*/

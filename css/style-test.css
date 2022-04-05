@@ -120,6 +120,10 @@ main.container{
     z-index: 10;
 }
 
+main .row-column{
+    justify-content: space-evenly;
+}
+
 main .container .row .col-xs-12.gutter-big{
     padding: 0px 30px 30px 30px;
 }
@@ -134,7 +138,7 @@ main .container .row .col-xs-12 .col-xs-5.row-column{
     font-size: 80px;
 }
 
-main .container .row .col-xs-12 .col-xs-2 a.sito{ 
+main .container .row .col-xs-12 .col-xs-1 a.sito{ 
     display: block;
     text-align: center;
     font-size: 1.2rem;
@@ -173,3 +177,30 @@ footer{
     text-align: center;
     padding: 30px;
 }
+
+
+
+/* @media screen and (min-width:768px) {
+
+    main .container .row .col-xs-12.gutter-big{
+        padding: 0px 30px 30px 30px;
+    }
+    
+    main .container .row .col-xs-12 .row-column .disp-none.a{
+        display: block;
+    }
+
+}
+
+@media screen and (min-width:1200px) {
+
+    main .container .row .col-xs-12.gutter-big{
+        padding: 0px 30px 30px 30px;
+    }
+    
+    main .container .row .col-xs-12 .row-column .disp-none.b{
+        display: block;
+    }
+       
+} */
+
